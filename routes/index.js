@@ -27,7 +27,7 @@ router.post("/register", function(req, res){
 	});
 });
 
-
+//
 //Show Login in Form
 router.get("/login", function(req, res){
 	res.render("login");
